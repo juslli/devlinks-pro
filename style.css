@@ -235,3 +235,11 @@ h1 {
 .links a i {
   font-size: 1.05rem;
 }
+.links a {
+transition: all 0.3s ease;
+}
+
+.links a:hover{
+transform: translateY(-5px);
+box-shadow: 0 10px 25px rgba(139,92,246,0.4);
+}
